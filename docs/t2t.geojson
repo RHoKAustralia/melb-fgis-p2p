@@ -1,0 +1,20 @@
+{ "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [102.01, 23.534, 51.3434]},
+       "properties": {
+         "origin": {"truck" : "850"},
+         "persona": {"type" : "truck", "personaId": "850", "temperature": "43.5"},
+		 "date_time" : "15-02-2011T11:45:12.012+10:00"
+	    }
+	  },	
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [102.01, 23.534, 51.3434]},
+       "properties": {
+         "origin": {"truck" : "850"},
+         "persona": {"type" : "agent", "personaId": "mike.gallet"},
+		 "date_time" : "15-02-2011T11:45:20.0100+10:00"
+	    }
+	  }	
+     ]
+   }
